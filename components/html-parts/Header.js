@@ -14,7 +14,7 @@ export default function Header() {
       </Head>
 
       <div className={styles.home}>
-        <Link href="/" style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', color:"white" }} class="home">
            David Isumba
         </Link>
       </div>
