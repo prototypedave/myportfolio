@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/html-parts/Header";
-import Footer from "../components/html-parts/Footer";
+import Header from "../html-parts/Header";
+import Footer from "../html-parts/Footer";
 import styles from "./Body.module.css";
 
 export const Body = ({children}) => {

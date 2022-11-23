@@ -3,7 +3,6 @@ import Head from "next/head";
 import styles from "./Header.module.css";
 //import { DiCssdeck } from 'react-icons/di';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import Blog from "../../pages/api/blog";
 
 export default function Header() {
   return (

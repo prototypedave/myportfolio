@@ -1,7 +1,7 @@
 import About from '../components/dynamic-info/About';
 import Projects from '../components/dynamic-info/Projects';
 import { Section } from '../styles/globalComponents/IndexStyled';
-import { Body } from '../Layout/Body';
+import { Body } from '../components/Layout/Body';
 import Skills from '../components/dynamic-info/Skills';
 import Background from '../components/html-parts/BackGround';
 
