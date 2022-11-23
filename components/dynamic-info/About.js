@@ -12,7 +12,7 @@ export default function About() {
             Hello there! <br />
             I'm David Isumba, a software engineer specialised as full stack developer
           </SectionTitle>
-          <SectionText>
+          <SectionText id="cty">
             Solving tech problems is my passion, have a look at some of my projects below
           </SectionText>
           <Button onclick={() => window.location = 'https://google.com'}>Find more about me</Button>
