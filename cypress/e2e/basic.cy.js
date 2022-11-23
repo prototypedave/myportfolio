@@ -4,7 +4,7 @@ describe('sample test', () => {
   })
 
   it('displays the resources text', () => {
-    cy.get('SectionText#cyt')
+    cy.get('#cyt')
     .contains('Solving tech problems is my passion, have a look at some of my projects below');
   })
 })
