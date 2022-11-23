@@ -4,7 +4,7 @@ describe('sample test', () => {
   })
 
   it('displays the resources text', () => {
-    cy.get('title')
-    .contains('David Isumba');
+    cy.get('h4')
+    .contains('Email');
   })
 })
