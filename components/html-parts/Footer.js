@@ -33,6 +33,7 @@ export default function Header() {
           </Link>
         </div>
       </div>
+      <img src="/netliheart.svg" alt="Netlify Logo" />
     </div>      
   )
 }
