@@ -1,6 +1,6 @@
 describe('sample test', () => {
   beforeEach(() => {
-    cy.visit('http://davidisumba.site')
+    cy.visit('http://www.davidisumba.site')
   })
   
   it("should render the home page and display a message", () => {
