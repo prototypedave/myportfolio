@@ -28,6 +28,12 @@
   font-size: 2rem;
 }
 
+.homeLink{
+  display: 'flex'; 
+  align-items: center; 
+  color:white;
+}
+
 .navbar{
   grid-area: 1 / 2 / 2 / 4;
   display: flex;

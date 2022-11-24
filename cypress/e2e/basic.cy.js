@@ -4,7 +4,7 @@ describe('sample test', () => {
   })
   
   it("should render the home page and display a message", () => {
-    cy.get("a").contains("David Isumba");
+    cy.get("h3").contains("David Isumba");
   });
 
   it('renders the Netlify logo image', () => {
