@@ -15,7 +15,7 @@ export default function Header() {
 
       <div className={styles.home}>
         <Link href="/" >
-          <h3 className={styles.homeLink}>David Isumba</h3> 
+          <a className={styles.homeLink}>David Isumba</a> 
         </Link>
       </div>
 
