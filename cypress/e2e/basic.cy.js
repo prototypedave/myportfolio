@@ -1,7 +1,11 @@
 describe('sample test', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visit('http://davidisumba.site')
   })
+  
+  it("should render the home page and display a message", () => {
+    cy.get("a").contains("David Isumba");
+  });
 
   it('renders the Netlify logo image', () => {
     cy.get('img')
