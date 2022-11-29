@@ -9,13 +9,13 @@ export default function About() {
       <Section row nopadding id="about">
         <div className={styles.left}>
           <SectionTitle main center>
-            Hello there! <br />
-            I'm David Isumba, a software engineer specialised as full stack developer
+            Hi there! <br />
+            I'm David, a software engineer specialised as full stack developer
           </SectionTitle>
           <SectionText id="cty">
             Solving tech problems is my passion, have a look at some of my projects below
           </SectionText>
-          <Button onclick={() => window.location = 'https://google.com'}>Find more about me</Button>
+          <Button onclick={() => window.open('https://1drv.ms/b/s!ApMYbfshq6TFmHp5XZEtYj0OVtKS')}>my resume</Button>
         </div>
       </Section>
     

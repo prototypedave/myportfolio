@@ -3,7 +3,6 @@ import Head from "next/head";
 import styles from "./Header.module.css";
 import { RiMenuFill } from 'react-icons/ri';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-
 import Mobile from "./Mobile";
 
 export default function Header() {
@@ -16,18 +15,18 @@ export default function Header() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />
       </Head>
       
-      <div className={styles.home}>
+      <div className={styles.home} >
           <Link href="/">
             <a className={styles.homeLink}>David Isumba</a> 
           </Link>
       </div>
 
-      <div className={styles.mobile}>
+      <div className={styles.mobile} id="navbar" >
           <a href="/" className={styles.mobileActive}>
             Home
           </a>
           <div className={styles.navbar} id="myNav">
-            <Link href="#about">
+            <Link href="#about" id="myNav">
               About
             </Link>
             <Link href="#projects">
@@ -36,8 +35,8 @@ export default function Header() {
             <Link href="#skills">
               Skills
             </Link>  
-            <Link href="../../pages/api/blog">
-              Blog
+            <Link href="#contact">
+              Contact
             </Link>
           </div>
           <a href="javascript:void(0);" className={styles.mobileIcon} onClick={() => Mobile()}>
@@ -51,8 +50,9 @@ export default function Header() {
         <Link href="https://linkedin.com">
           <AiFillLinkedin size="40px" className={styles.contact} />
         </Link>
-      </div>  
+      </div>
     </div>
+    
    
   )
 }

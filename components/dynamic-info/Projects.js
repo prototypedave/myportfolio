@@ -14,11 +14,12 @@ export default function Projects() {
         {projects.map(({id, title, description, image, tags, visit, source}) => {
           return (
             <div key={id} className={styles.card}>
-              <img className={styles.image} src={image}/>
               <div className={styles.titleContent}>
                 <HeaderThree title>{title}</HeaderThree>
                 <Hr />
               </div>
+              <img className={styles.image} src={image}/>
+              
               <div className={styles.cardInfo}>{description}</div>
                 <div>
                   <div className={styles.titleContent}>Stack</div>
